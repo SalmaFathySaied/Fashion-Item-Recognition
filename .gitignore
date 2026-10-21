@@ -1,0 +1,51 @@
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+*.pb
+*.safetensors
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials*
+secrets*
+
+# Generated outputs and local datasets
+crops/
+crops_fashion/
+debug/
+runs/
+yolov3_results/
+test_images/
+dataset/
+datasets/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp

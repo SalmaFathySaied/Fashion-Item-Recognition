@@ -1,0 +1,1 @@
+This is a text file, not an image. Use it to test image validation.
